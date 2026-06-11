@@ -1,0 +1,492 @@
+﻿<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070002 in PbrGetOSMetadata (base\reset\engine\scenario\src\sensetargetos.cpp:414): Failed to read Compact value from target OS, assuming not compact" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="0" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070002 in PushButtonReset::WofOverlay::EnumOverlays (base\reset\util\src\wofoverlay.cpp:64): WofEnumEntries failed, assuming no overlays on volume [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}]" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070002 in PushButtonReset::WofOverlay::EnumOverlays (base\reset\util\src\wofoverlay.cpp:64): WofEnumEntries failed, assuming no overlays on volume [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}]" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070002 in PushButtonReset::WofOverlay::EnumOverlays (base\reset\util\src\wofoverlay.cpp:64): WofEnumEntries failed, assuming no overlays on volume [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}]" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070002 in PushButtonReset::WofOverlay::EnumOverlays (base\reset\util\src\wofoverlay.cpp:64): WofEnumEntries failed, assuming no overlays on volume [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}]" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="129" Fil="" Fun="IsNarratorRunning" Uid="50331648" Msg="IsNarratorRunning: Error finding window NarratorUIClass; HR = 0x80070002" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070002 in PbrSenseNarrator (base\reset\engine\scenario\src\sensemisc.cpp:323): Failed to query whether narrator is running" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] RegOpenKeyEx(GP) failed: 0x2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] WinReGetGroupPolicies failed with error code 0x2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] NOTE: overwrite error code 0x2 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:05:25"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="8168" Fil="" Fun="pGetAntiVirusInfo" Uid="51150848" Msg="Failed to connect securitycenter2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:29"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="482" Fil="" Fun="CSetupOneSetting::InitializeAndQuery" Uid="50331648" Msg="Onesettings: Failed to Query Onesettings: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:29"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="125" Fil="" Fun="CreateSetupOneSettings" Uid="50331648" Msg="Onesettings: Failed to initialize and query: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:29"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="405" Fil="" Fun="CSetupPlatformTracing::ReadTracingOneSettings" Uid="50331648" Msg="Failed to create OneSettings infrastructure. Error: 0x0880072EE7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:29"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="528" Fil="" Fun="CSetupPlatformTracing::Initialize" Uid="50331648" Msg="No onesetting configured or error getting onesetting" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:29"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="16925" Fil="" Fun="CSetupPlatform::Initialize" Uid="51150848" Msg="CSetupPlatform::Initialize: Failed to initialize tracing" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="203" MD="" DT="2026-05-20T19:05:29"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Delete OS uninstall image] ([DeleteUninstall]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [931179134976] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [8192] bytes, leaving [931179126784] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x800703ed in PushButtonReset::Partition::FindByVolumePath (base\reset\util\src\diskpart.cpp:2226): Failed to check whether access paths [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}\] and [\\?\GLOBALROOT\device\harddisk0\partition2\] are for the same volume" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="1005" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Execute OEM extensibility command: [MSRM.cmd C]] ([RunExtension]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [931212369920] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [262144] bytes, leaving [931212107776] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070005 in PushButtonReset::Directory::EnumExcept (base\reset\util\src\filesystem.cpp:1998): Failed to check whether [C:\hiberfil.sys] is a child path of [C:\DumpStack.log.tmp], assuming no" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="5" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070005 in PushButtonReset::Directory::EnumExcept (base\reset\util\src\filesystem.cpp:1998): Failed to check whether [C:\hiberfil.sys] is a child path of [C:\swapfile.sys], assuming no" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="5" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="ArchiveUserData: Skipping locked system file [C:\pagefile.sys]" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="32" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Archive user data files] ([ArchiveUserData]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [931212107776] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [8192] bytes, leaving [931212099584] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="8168" Fil="" Fun="pGetAntiVirusInfo" Uid="51150848" Msg="Failed to connect securitycenter2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:30"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="482" Fil="" Fun="CSetupOneSetting::InitializeAndQuery" Uid="50331648" Msg="Onesettings: Failed to Query Onesettings: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="125" Fil="" Fun="CreateSetupOneSettings" Uid="50331648" Msg="Onesettings: Failed to initialize and query: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="405" Fil="" Fun="CSetupPlatformTracing::ReadTracingOneSettings" Uid="50331648" Msg="Failed to create OneSettings infrastructure. Error: 0x0880072EE7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="528" Fil="" Fun="CSetupPlatformTracing::Initialize" Uid="50331648" Msg="No onesetting configured or error getting onesetting" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="16925" Fil="" Fun="CSetupPlatform::Initialize" Uid="51150848" Msg="CSetupPlatform::Initialize: Failed to initialize tracing" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="203" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070490 in ParseProperty (base\reset\util\src\wim.cpp:1002): Failed to select [DISPLAYNAME]" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x00000000 in PushButtonReset::WimInfo::FromXml (base\reset\util\src\wim.cpp:1115): /WIM/IMAGE/WINDOWS tag not present, assuming this is not an OS image" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070490 in ParseProperty (base\reset\util\src\wim.cpp:1002): Failed to select [DISPLAYNAME]" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x80070490 in ParseProperty (base\reset\util\src\wim.cpp:1002): Failed to select [DISPLAYNAME]" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="482" Fil="" Fun="CSetupOneSetting::InitializeAndQuery" Uid="50331648" Msg="Onesettings: Failed to Query Onesettings: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="125" Fil="" Fun="CreateSetupOneSettings" Uid="50331648" Msg="Onesettings: Failed to initialize and query: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="4339" Fil="" Fun="CNewSystem::PreInitialize" Uid="51150848" Msg="Failed to create OneSettings infrastructure. Error: 0x0880072EE7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="482" Fil="" Fun="CSetupOneSetting::InitializeAndQuery" Uid="50331648" Msg="Onesettings: Failed to Query Onesettings: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="125" Fil="" Fun="CreateSetupOneSettings" Uid="50331648" Msg="Onesettings: Failed to initialize and query: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5579" Fil="" Fun="CNewSystem::QueueOperations" Uid="51150848" Msg="Failed to create OneSettings infrastructure. Error: 0x80072EE7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10121" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Found invalid line in Monitoring.ExtraPaths: U,%CSIDL_DESKTOP%,L,%ProgramFiles%\Panda Security\WAC\PSANHost.exe!WGUA.Bin\wgua_critical_file.3g2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:43"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3948" Fil="" Fun="SPCalculateDriveMappings" Uid="51150848" Msg="SPCalculateDriveMappings: C:\ already maps to C:\, ignoring the newer mapping C:\" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:43"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="11700" Fil="" Fun="pAddToSFList" Uid="51150848" Msg="Failure while getting the known folder path for CSIDL_PRINTHOOD (S-1-5-21-1094860489-4152710149-386901146-1001): Win32Exception: The system cannot find the file specified. [0x00000002] class UnBCL::String *__cdecl Mig::CFacadeUser::GetKnownFolderLocation(class UnBCL::String *,int *,class UnBCL::String **)" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10230" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Extra path %TMP%; was not resolved; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10230" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Extra path %TEMP%; was not resolved; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files\Chaos Group\Chaos Cosmos\cbservice.exe, Chaos Cosmos\.touch] for path C:\Users\sljjk\OneDrive\Documents, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files (x86)\Chaos Group\Chaos Cosmos\cbservice.exe, Chaos Cosmos\.touch] for path C:\Users\sljjk\OneDrive\Documents, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files\Chaos Group\Chaos Cosmos\cbservice.exe, Chaos Cosmos\Packages\cpkg.db-journal] for path C:\Users\sljjk\OneDrive\Documents, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files (x86)\Chaos Group\Chaos Cosmos\cbservice.exe, Chaos Cosmos\Packages\cpkg.db-journal] for path C:\Users\sljjk\OneDrive\Documents, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files\Chaos Group\Chaos Cosmos\cbservice.exe, Chaos Cosmos\.touch] for path C:\Users\sljjk\OneDrive\Documents, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files (x86)\Chaos Group\Chaos Cosmos\cbservice.exe, Chaos Cosmos\.touch] for path C:\Users\sljjk\OneDrive\Documents, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files\Chaos Group\Chaos Cosmos\cbservice.exe, Chaos Cosmos\Packages\cpkg.db-journal] for path C:\Users\sljjk\OneDrive\Documents, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files (x86)\Chaos Group\Chaos Cosmos\cbservice.exe, Chaos Cosmos\Packages\cpkg.db-journal] for path C:\Users\sljjk\OneDrive\Documents, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files\Intel\Driver and Support Assistant\DSAService.exe, Intel Driver and Support Assistant\DSA\Logs\Service\*.*] for path C:\Users\sljjk\Downloads, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\Program Files (x86)\Intel\Driver and Support Assistant\DSAService.exe, Intel Driver and Support Assistant\DSA\Logs\Service\*.*] for path C:\Users\sljjk\Downloads, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9541" Fil="" Fun="CMonitoredPath::AddOverride" Uid="51150848" Msg="CMonitoredPath::AddOverride: Found existing override [C:\WINDOWS\System32\msiexec.exe, MSI*.tmp] for path C:\Users\sljjk\Downloads, will remove it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\Public\Favorites does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Music\Playlists does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures\Slide Shows does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\SkyDrive does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\SkyDrive\Documents does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\SkyDrive\Pictures does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\SkyDrive\Pictures\Camera Roll does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures\Camera Roll does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures\Saved Pictures does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures\Screenshots does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\3D Objects does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Desktop does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Desktop does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Program Files\Microsoft OneDrive does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Program Files (x86)\Microsoft Office does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Program Files (x86)\Microsoft OneDrive does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\AppData\Local\Temp does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\AppData\Local\Programs\Microsoft VS Code does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10335" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\OneDrive\Pictures\Camera Roll 1 duplicated; will remove duplicate" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10335" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\OneDrive\Desktop duplicated; will remove duplicate" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10335" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\OneDrive\Documents duplicated; will remove duplicate" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10335" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Documents duplicated; will remove duplicate" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 4096 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:05:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3948" Fil="" Fun="SPCalculateDriveMappings" Uid="51150848" Msg="    SPCalculateDriveMappings: C:\ already maps to C:\, ignoring the newer mapping C:\" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\Public\Favorites does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Music\Playlists does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures\Slide Shows does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\SkyDrive does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\SkyDrive\Documents does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\SkyDrive\Pictures does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\SkyDrive\Pictures\Camera Roll does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures\Camera Roll does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures\Saved Pictures does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures\Screenshots does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="3" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\3D Objects does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Desktop does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Desktop does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10308" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Pictures does not exist; will skip it" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10335" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\OneDrive\Pictures\Camera Roll 1 duplicated; will remove duplicate" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10335" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\OneDrive\Desktop duplicated; will remove duplicate" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10335" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\OneDrive\Documents duplicated; will remove duplicate" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10335" Fil="" Fun="SPCalculateMonitoringPaths" Uid="51150848" Msg="    SPCalculateMonitoringPaths: Monitoring path C:\Users\sljjk\Documents duplicated; will remove duplicate" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:06:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3948" Fil="" Fun="SPCalculateDriveMappings" Uid="51150848" Msg="    SPCalculateDriveMappings: C:\ already maps to C:\, ignoring the newer mapping C:\" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:37"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10819" Fil="" Fun="Mig::COfflineWinNTPlatform::AddUserContext" Uid="50855936" Msg="        User class hive loading error, ignoring. Hive path:C:\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:06:38"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10067" Fil="" Fun="Mig::COfflineWinNTPlatform::SetUserContext" Uid="50855936" Msg="    User class hive loading error, ignoring. Hive path:C:\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:06:39"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10067" Fil="" Fun="Mig::COfflineWinNTPlatform::SetUserContext" Uid="50855936" Msg="        User class hive loading error, ignoring. Hive path:C:\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:06:39"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10067" Fil="" Fun="Mig::COfflineWinNTPlatform::SetUserContext" Uid="50855936" Msg="        User class hive loading error, ignoring. Hive path:C:\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:06:39"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 28672 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:40"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 536576 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:41"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 73728 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:41"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 12288 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:42"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3948" Fil="" Fun="SPCalculateDriveMappings" Uid="51150848" Msg="    SPCalculateDriveMappings: C:\ already maps to C:\, ignoring the newer mapping C:\" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:42"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 73728 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:45"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 65536 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:45"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 24460964 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:06:54"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="482" Fil="" Fun="CSetupOneSetting::InitializeAndQuery" Uid="50331648" Msg="    Onesettings: Failed to Query Onesettings: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:07:06"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="125" Fil="" Fun="CreateSetupOneSettings" Uid="50331648" Msg="    Onesettings: Failed to initialize and query: 0x80072ee7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:07:06"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="1570" Fil="" Fun="CProcessDrivers::DoExecute" Uid="51150848" Msg="    CreateSetupOneSettings failed. Error: 0x80072EE7" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:07:06"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="420" Fil="" Fun="CGlobalPath::FindGlobalPathCallback" Uid="51150848" Msg="    FindGlobalPath: Cannot find volume name for \\?\GLOBALROOT\Device\HardDisk0\Partition2. Error: 0x0000001F" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="31" MD="" DT="2026-05-20T19:07:45"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 213114880 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:08"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 2133808 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 107992 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:12"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 1254284 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:13"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 16730 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:16"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 547651 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:17"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 3639671 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:21"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 535619 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:22"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 3439154 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:26"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 527697 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:28"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 1823927 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:31"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 571173 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:36"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 518387 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:40"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 18348 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:42"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 16304355 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:10:56"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="9345" Fil="" Fun="Mig::CKnowledgeManager::RegContentCallback" Uid="50858349" Msg="        CKnowledgeManager::RegContentCallback: &quot;HKLM\SYSTEM\Setup\Upgrade\PnP\CurrentControlSet\Control\DeviceMigration\Devices\PCI\VEN_8086&amp;DEV_A7A8&amp;SUBSYS_8BA9103C&amp;REV_04\3&amp;11583659&amp;2&amp;10\Driver\KMD\HUC[]&quot; REG_SZ does not have content" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="0" MD="" DT="2026-05-20T19:16:41"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="8720" Fil="" Fun="SclLogCallback" Uid="51150848" Msg="    [SetupCl library] Required profile hive does not exist: [\??\C:\$WINDOWS.~BT\NewOS\WINDOWS\system32\config\systemprofile\NTUSER.DAT]." PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="8720" Fil="" Fun="SclLogCallback" Uid="51150848" Msg="    [SetupCl library] Required profile hive does not exist: [\??\C:\$WINDOWS.~BT\NewOS\WINDOWS\ServiceProfiles\LocalService\NTUSER.DAT]." PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="8720" Fil="" Fun="SclLogCallback" Uid="51150848" Msg="    [SetupCl library] Required profile hive does not exist: [\??\C:\$WINDOWS.~BT\NewOS\WINDOWS\ServiceProfiles\NetworkService\NTUSER.DAT]." PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3948" Fil="" Fun="SPCalculateDriveMappings" Uid="51150848" Msg="    SPCalculateDriveMappings: C:\ already maps to C:\, ignoring the newer mapping C:\" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:45"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3948" Fil="" Fun="SPCalculateDriveMappings" Uid="51150848" Msg="    SPCalculateDriveMappings: C:\ already maps to C:\$WINDOWS.~BT\NewOS\, ignoring the newer mapping C:\$WINDOWS.~BT\NewOS\" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:49"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 1720320 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:55"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3948" Fil="" Fun="SPCalculateDriveMappings" Uid="51150848" Msg="    SPCalculateDriveMappings: C:\ already maps to C:\, ignoring the newer mapping C:\" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:55"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10819" Fil="" Fun="Mig::COfflineWinNTPlatform::AddUserContext" Uid="50855936" Msg="        User class hive loading error, ignoring. Hive path:C:\$Windows.~BT\NewOS\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:16:56"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3948" Fil="" Fun="SPCalculateDriveMappings" Uid="51150848" Msg="    SPCalculateDriveMappings: C:\ already maps to C:\, ignoring the newer mapping C:\" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:57"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10819" Fil="" Fun="Mig::COfflineWinNTPlatform::AddUserContext" Uid="50855936" Msg="    User class hive loading error, ignoring. Hive path:C:\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:16:58"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10067" Fil="" Fun="Mig::COfflineWinNTPlatform::SetUserContext" Uid="50855936" Msg="    User class hive loading error, ignoring. Hive path:C:\$Windows.~BT\NewOS\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:16:59"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10067" Fil="" Fun="Mig::COfflineWinNTPlatform::SetUserContext" Uid="50855936" Msg="        User class hive loading error, ignoring. Hive path:C:\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:16:59"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10067" Fil="" Fun="Mig::COfflineWinNTPlatform::SetUserContext" Uid="50855936" Msg="        User class hive loading error, ignoring. Hive path:C:\$Windows.~BT\NewOS\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:16:59"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10067" Fil="" Fun="Mig::COfflineWinNTPlatform::SetUserContext" Uid="50855936" Msg="        User class hive loading error, ignoring. Hive path:C:\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:16:59"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="10067" Fil="" Fun="Mig::COfflineWinNTPlatform::SetUserContext" Uid="50855936" Msg="        User class hive loading error, ignoring. Hive path:C:\$Windows.~BT\NewOS\Users\Default\AppData\Local\Microsoft\Windows\UsrClass.dat, error: 2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="migcore.dll" Err="2" MD="" DT="2026-05-20T19:16:59"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 176128 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:16:59"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 1093632 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:00"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 33640448 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:03"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 28672 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:03"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3349" Fil="" Fun="SPMoveFileWithShortName" Uid="51150848" Msg="    SPMoveFileWithShortName: Failed to move C:\SkyDriveTemp to C:\Windows.old\SkyDriveTemp, error: 0x00000002" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:17:03"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="3349" Fil="" Fun="SPMoveFileWithShortName" Uid="51150848" Msg="    SPMoveFileWithShortName: Failed to move C:\$WinREAgent to C:\Windows.old\$WinREAgent, error: 0x00000002" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="2" MD="" DT="2026-05-20T19:17:03"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 131072 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:03"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="214" Fil="" Fun="CAddProvisioningPackage::DoExecute" Uid="51150848" Msg="    CAddProvisioningPackage::DoExecute: Failed to initialize COM security. Was it initialized before us? hr = 0x80010119" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="183" MD="" DT="2026-05-20T19:17:03"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 12288 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:04"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="214" Fil="" Fun="CAddProvisioningPackage::DoExecute" Uid="51150848" Msg="    CAddProvisioningPackage::DoExecute: Failed to initialize COM security. Was it initialized before us? hr = 0x80010119" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="183" MD="" DT="2026-05-20T19:17:04"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 532480 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:04"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="214" Fil="" Fun="CAddProvisioningPackage::DoExecute" Uid="51150848" Msg="    CAddProvisioningPackage::DoExecute: Failed to initialize COM security. Was it initialized before us? hr = 0x80010119" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="183" MD="" DT="2026-05-20T19:17:04"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 12288 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:05"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="214" Fil="" Fun="CAddProvisioningPackage::DoExecute" Uid="51150848" Msg="    CAddProvisioningPackage::DoExecute: Failed to initialize COM security. Was it initialized before us? hr = 0x80010119" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="183" MD="" DT="2026-05-20T19:17:05"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 8192 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:05"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="5489" Fil="" Fun="COperationQueue::ExecuteOperationsInternal" Uid="51150848" Msg="DISKSPACEEXCEED: Operation consumed more disk space than declared. Exceeded by 8388608 bytes" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="0" MD="" DT="2026-05-20T19:17:05"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="14220" Fil="" Fun="CNewSystem::Finalize" Uid="51150848" Msg="DISKSPACETRACK: Size of SafeOS WIM C:\$WINDOWS.~BT\Sources\SafeOS\winre.wim is 0" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="SetupPlatform.dll" Err="183" MD="" DT="2026-05-20T19:17:06"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Migrate setting-related files and registry data] ([MigrateSettings]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:43"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [35155094] bytes, leaving [927313216362] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:43"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [36098048] bytes, leaving [927312273408] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:43"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Execute PBR plugins] ([ExecutePbrPlugin]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [927312273408] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [1445888] bytes, leaving [927310827520] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:44"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Migrate AppX Provisioned Apps] ([MigrateProvisionedApps]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [927310827520] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [41988096] bytes, leaving [927268839424] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Migrate OEM PBR extensions] ([MigrateOEMExtensions]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [927268839424] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [4096] bytes, leaving [927268835328] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Set &apos;In-Progress&apos; environment key] ([MarkInProgress]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [927268835328] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [4096] bytes, leaving [927268831232] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Restore boot manager settings] ([RestoreBootSettings]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [927268831232] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [4096] bytes, leaving [927268827136] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] failed to get child attribute by tag: 0xd" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] failed to get child attribute by tag: 0xd" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] failed to get child attribute by tag: 0xd" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] failed to get child attribute by tag: 0xd" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] failed to get child attribute by tag: 0xd" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] failed to get child attribute by tag: 0xd" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] failed to get child attribute by tag: 0xd" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] failed to get child attribute by tag: 0xd" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] ReAgentConfig::ReadBcdAndUpdateEnhancedConfigInfo GetOsInfoForBootEntry returned 0x2 " PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  failed to add trailing back slash to string  (0x57) in file base\diagnosis\srt\reagent2\reinfo\shared.cpp line 1437" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  overwrites error code 0x57 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  failed to add trailing back slash to string  (0x57) in file base\diagnosis\srt\reagent2\reinfo\shared.cpp line 1437" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  overwrites error code 0x57 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  failed to add trailing back slash to string  (0x57) in file base\diagnosis\srt\reagent2\reinfo\shared.cpp line 1437" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  overwrites error code 0x57 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  failed to add trailing back slash to string  (0x57) in file base\diagnosis\srt\reagent2\reinfo\shared.cpp line 1437" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  overwrites error code 0x57 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  failed to add trailing back slash to string  (0x57) in file base\diagnosis\srt\reagent2\reinfo\shared.cpp line 1437" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  overwrites error code 0x57 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  failed to add trailing back slash to string  (0x57) in file base\diagnosis\srt\reagent2\reinfo\shared.cpp line 1437" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe]  overwrites error code 0x57 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] WinReRestoreConfigAfterPBR Failed to find a recovery image" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Restore WinRE information] ([RestoreWinRE]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [927268827136] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [102400] bytes, leaving [927268724736] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] read xml file (C:\Recovery\ReAgentOld.xml) failed: 0x2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] ReAgentXMLParser::ParseConfigFile failed to read config xml file (0x2) in file base\diagnosis\srt\reagent2\reinfo\parser_2.0.cpp line 875" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] ReAgentXMLParser::ParseConfigFile (xml file: C:\Recovery\ReAgentOld.xml) returning 0x2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] Failed to get recovery entries: 0xc0000225" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Install WinRE on target OS] ([InstallWinRE]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [927268724736] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [4096] bytes, leaving [927268720640] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x800703ed in PushButtonReset::Partition::FindByVolumePath (base\reset\util\src\diskpart.cpp:2226): Failed to check whether access paths [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}\] and [\\?\GLOBALROOT\device\harddisk0\partition2\] are for the same volume" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="1005" MD="" DT="2026-05-20T19:18:53"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Execute OEM extensibility command: [MSRM.cmd D]] ([RunExtension]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:19:26"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [927268720640] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:19:26"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [10002432] bytes, leaving [927258718208] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:19:26"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] RegOpenKeyEx(GP) failed: 0x2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:19:26"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] WinReGetGroupPolicies failed with error code 0x2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:19:26"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] NOTE: overwrite error code 0x2 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:19:26"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Test config file not found" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:19:26"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Delete old OS files] ([DeleteOldOS]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:20:41"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [-80517816320] bytes, leaving [1007861637120] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:20:41"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [-43617148928] bytes, leaving [970960969728] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:20:41"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="Operation [Overwrite metadata on [C:\]] ([EraseMetadata]) consumed more disk space than expected" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:26:12"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Expected to use [0] bytes, leaving [970966728704] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:26:12"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="169" Fil="" Fun="PushButtonReset::Logging::Trace" Uid="50331648" Msg="-&gt; Actually used [155648] bytes, leaving [970966573056] bytes free" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="2" MD="" DT="2026-05-20T19:26:12"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] RegOpenKeyEx(GP) failed: 0x2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:27:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] WinReGetGroupPolicies failed with error code 0x2" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:27:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[sysreset.exe] NOTE: overwrite error code 0x2 because it is not critical" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:27:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x800703ed in PushButtonReset::Partition::FindByVolumePath (base\reset\util\src\diskpart.cpp:2226): Failed to check whether access paths [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}\] and [\\?\GLOBALROOT\device\harddisk0\partition2\] are for the same volume" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="1005" MD="" DT="2026-05-20T19:27:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x800703ed in PushButtonReset::Partition::FindByVolumePath (base\reset\util\src\diskpart.cpp:2226): Failed to check whether access paths [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}\] and [\\?\GLOBALROOT\device\harddisk0\partition2\] are for the same volume" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="1005" MD="" DT="2026-05-20T19:27:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x800703ed in PushButtonReset::Partition::FindByVolumePath (base\reset\util\src\diskpart.cpp:2226): Failed to check whether access paths [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}\] and [\\?\GLOBALROOT\device\harddisk0\partition2\] are for the same volume" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="1005" MD="" DT="2026-05-20T19:27:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x800703ed in PushButtonReset::Partition::FindByVolumePath (base\reset\util\src\diskpart.cpp:2226): Failed to check whether access paths [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}\] and [\\?\GLOBALROOT\device\harddisk0\partition2\] are for the same volume" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="1005" MD="" DT="2026-05-20T19:27:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="237" Fil="" Fun="PushButtonReset::Logging::TraceErr" Uid="50331648" Msg="0x800703ed in PushButtonReset::Partition::FindByVolumePath (base\reset\util\src\diskpart.cpp:2226): Failed to check whether access paths [\\?\Volume{5276cef7-337b-4862-9f48-29b8892b92db}\] and [\\?\GLOBALROOT\device\harddisk0\partition2\] are for the same volume" PID="1800" TID="1804" Con="" Exe="X:\windows\system32\sysreset.exe" Mod="ResetEngine.dll" Err="1005" MD="" DT="2026-05-20T19:27:09"/>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[ResetEngine.exe] RegOpenKeyEx(GP) failed: 0x2" PID="3196" TID="4896" Con="" Exe="C:\Windows\System32\ResetEngine.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:33:04"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[ResetEngine.exe] WinReGetGroupPolicies failed with error code 0x2" PID="3196" TID="4896" Con="" Exe="C:\Windows\System32\ResetEngine.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:33:04"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="471" Fil="" Fun="UnattendLogWV" Uid="50331648" Msg="[ResetEngine.exe] NOTE: overwrite error code 0x2 because it is not critical" PID="3196" TID="4896" Con="" Exe="C:\Windows\System32\ResetEngine.exe" Mod="ReAgent.dll" Err="0" MD="" DT="2026-05-20T19:33:04"/>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>

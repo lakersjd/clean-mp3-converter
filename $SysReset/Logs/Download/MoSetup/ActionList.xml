@@ -1,0 +1,733 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ActionList xmlns="urn:schemas-microsoft-com:os-update-actionlist" SessionId="2026-05-20T18:37:27" Revision="1" SessionData="ImageBasedPBR" BuildInfo="ge_release.26100.1.240331-1435" CorrelationVector="8oUM+hlsm0a0ytwn.1" Operation="ImageBasedPBR">
+    <Downloads>
+        <Package Id="core_en-us_esd" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="iqt4js1eVOVUcy3wPRwu3Xt4f8wMCAZdGaIkrQJeFd4=" DownloadSize="585992029" SourceName="core_en-us.esd" SourcePath="MetadataESD"/>
+        </Package>
+        <Package Id="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~" CapabilityId="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="TdpjjNdTnGr8/Z5LR1k9B9kJBmBOzEjDdPM+OhAP/Po=" DownloadSize="318540" SourceName="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="C2jF5hzhZV/H1llNArZkvIO9rSSdT3Jf8kiZs9rf90k=" DownloadSize="28647459" SourceName="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Edge-WebView-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="DS0uFGml/fIyDi3RTUlMTlRmtc0zs2dySKnxal8H1zw=" DownloadSize="203324927" SourceName="Microsoft-Edge-WebView-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="yrAmdbLonbv1AYxCUpRKpwS8jpDbWvsLu+pAM8smyhc=" DownloadSize="3923301" SourceName="Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-OneCore-DirectX-Database-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="x4rBC5RLpQOJkvCII6EOe08xbBJKqVqnHVd52UgXS8U=" DownloadSize="543454" SourceName="Microsoft-OneCore-DirectX-Database-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Win4-Feature" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="xXrzbJ84WBwFdXOUF9CBfeOAfbSq5AbpkL4T5ibK3mo=" DownloadSize="169257884" SourceName="Microsoft-Win4-Feature.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Win4-WOW64-Feature" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="uJ8TMBf5Wk4kHRp5nyMoBZPGybYWF169T83eZ7+aTJg=" DownloadSize="43467782" SourceName="Microsoft-Win4-WOW64-Feature.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Client-Desktop-Required-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="ZwsIuEHvIrYM7e/uP721IBDI1oS8CKw1DoMzfKL6fZA=" DownloadSize="814894129" SourceName="Microsoft-Windows-Client-Desktop-Required-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Client-Desktop-Required-WOW64-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="S9QI5jsqxDRpX10mmhzGfICyUo0NfF0Vky1q1LZxmks=" DownloadSize="196084750" SourceName="Microsoft-Windows-Client-Desktop-Required-WOW64-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Client-Features-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="M2kMVZYA1bTWKEYNnoybnarXv+L8FyEaXuBwBSXoBSM=" DownloadSize="262234048" SourceName="Microsoft-Windows-Client-Features-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Client-Features-WOW64-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="wfeSxh/98I9yUPECN0OxlYXO9/hl20+EgFfdIyhLyAA=" DownloadSize="85948360" SourceName="Microsoft-Windows-Client-Features-WOW64-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-us~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="2Xgj+gKUO9sWZXsns7Ukpu8YCm4ivALCUaP05RkWqj0=" DownloadSize="19463948" SourceName="Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-us~.esd" SourcePath="UUP\Desktop\editionpackages\en-us\Client"/>
+        </Package>
+        <Package Id="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.DirectoryServices.ADAM.Client.Content~" CapabilityId="Windows.DirectoryServices.ADAM.Client.Content~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="f4h4ci8qKSo37bZkOQ+KBBoFCX6hZoCP86JCgH3POXU=" DownloadSize="455715" SourceName="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="422PrqfpjRA8XybhJbRXhzNeowoH/ZJaY8YWR8FBvao=" DownloadSize="5553873" SourceName="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="Windows.DirectoryServices.ADAM.Client.Content~" CapabilityId="Windows.DirectoryServices.ADAM.Client.Content~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="ftgaA6s/e5kf4GDxx2sk3hfk8DPG9sNLmnFGlaJFfew=" DownloadSize="111916" SourceName="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="90u7mz8R4D7bC1RAH8FMVjEKMp+zVuerM/BNhZBPeCE=" DownloadSize="514110" SourceName="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-EditionPack-Core-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="2wRBHcLsoIYbg7UkelQ4KmlynKStxph6jlLDx7Xa0jM=" DownloadSize="95811107" SourceName="Microsoft-Windows-EditionPack-Core-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-EditionPack-Core-WOW64-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="o6bsjYxNyll4N6C6TDbdWrdVirsExJOtfTziF90Km0E=" DownloadSize="4170465" SourceName="Microsoft-Windows-EditionPack-Core-WOW64-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-EditionSpecific-Core-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="2QBnzu8/dQoeAfao6A0dJHD/gsdZ7w0SFHVQXse+CSQ=" DownloadSize="56399502" SourceName="Microsoft-Windows-EditionSpecific-Core-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.WorkFolders.Client~" CapabilityId="Windows.WorkFolders.Client~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="+lUIfMMa+8PfKfrY8CHxIIjIvC24OJNzNbyjJ3I0f9E=" DownloadSize="43341" SourceName="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="Poj3MClQReYJc4XdX4rcAzmrnUoM3qOa1rQqJGgxoAY=" DownloadSize="953267" SourceName="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="Windows.WorkFolders.Client~" CapabilityId="Windows.WorkFolders.Client~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="yDm3+VzYeRO0L0+hHX10lCPX6NvrMixiCUrtBZ+LxpQ=" DownloadSize="22160" SourceName="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="Xv4l85goCIVgDYmi1HdrSZUJisG7QdXVvpXXI+jq6Tw=" DownloadSize="48989" SourceName="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="biQa6QAZWRU4orwLMzoil8TCR5vqBz1kw2Xfh+osCcw=" DownloadSize="286896" SourceName="Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="lkOgRHnkEsJ+gC8Z1pDgDWrUjaXNz21s6+kqfERJMgE=" DownloadSize="238315" SourceName="Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="FQgLx8JhTZEZdONMlwNO7qd2IruXIh0ai0rO6tX9UPA=" DownloadSize="249627" SourceName="Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="KzzRt7mVsE52MJomhcn5wCyr0JzkR22zr8jSI+/szhY=" DownloadSize="69609" SourceName="Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-FoDMetadata-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="L/t2VZwOdwN9vTl0jIllnPok3rouWgtWL6EoBpa94i4=" DownloadSize="575962" SourceName="Microsoft-Windows-FoDMetadata-Package.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Foundation-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="Ap6f0HFiHWNOtx/ooKh/4dHCxJB8gK1x1zokz2b44NU=" DownloadSize="24238" SourceName="Microsoft-Windows-Foundation-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Hello-Face-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="WoPEsjuTE6N/nr5hg1GYUSDNYEKRemV28HiprT4IBRQ=" DownloadSize="60031063" SourceName="Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Browser.InternetExplorer~~11.0" CapabilityId="Browser.InternetExplorer~~~en-US~0.0.11.0">
+            <Payload PayloadType="Canonical" Hash="D778hfrPPesu8Btvqzs1+8SAcTQ8T2LWV0oQCDRJd/k=" DownloadSize="30781" SourceName="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="+QRzwzZ6pj8b19eI23D9BQGaj68cB09z22D+iqUdDtI=" DownloadSize="304859" SourceName="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Kernel-LA57-FoD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="vk7QasdHqZW9KvXz0hKY9le7Qo5VJpfjIOVCzzZx7w0=" DownloadSize="5348287" SourceName="Microsoft-Windows-Kernel-LA57-FoD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-LanguageFeatures-Basic-en-us-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="atB8Q1Dkxju4GCDJYjqsag8ZnLmbyqPJzRgm+lBxJCE=" DownloadSize="22318540" SourceName="Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="DQNY+eTo20XABO6rBSdG06TbFH8EisTZjhh3hm43aMg=" DownloadSize="12582903" SourceName="Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-LanguageFeatures-OCR-en-us-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="GCCnoMRPFUpUK11gXqLl6V5a8PTsWGLqR8nBJrgRL+E=" DownloadSize="158380" SourceName="Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-LanguageFeatures-Speech-en-us-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="ccT2LF9UFwJSJL05DqqdXfZ3nDE2pVwSjCCsCo5h/HA=" DownloadSize="64398391" SourceName="Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="yQd2Ux1Js5qq87O+OVypLqxsQkwXJ1WOkTTX4v57tXc=" DownloadSize="50181800" SourceName="Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Media.WindowsMediaPlayer~~12.0" CapabilityId="Media.WindowsMediaPlayer~~~en-US~0.0.12.0">
+            <Payload PayloadType="Canonical" Hash="xPZvwn6o3+OHqQugMykWIq+VdZfQEhqsYcEGZzzeU2U=" DownloadSize="164372" SourceName="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="KviRqUgB3hdYGd0RFFUyOVA7MlSED9spsGN2caOMlaQ=" DownloadSize="9742107" SourceName="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="Media.WindowsMediaPlayer~~12.0" CapabilityId="Media.WindowsMediaPlayer~~~en-US~0.0.12.0">
+            <Payload PayloadType="Canonical" Hash="DRkZfVkCiWMQzi4Iz5rg5ESSPW35p3f4z/ApAfxxonY=" DownloadSize="57092" SourceName="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="KRuSb+UOFgsppOO1oIHjVqQcU670I1xRYbUevC3fw08=" DownloadSize="4627167" SourceName="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-NetFx3-OnDemand-Package" Reason="OnDemand" FeatureId="NetFX3~" CapabilityId="NetFX3~~~~">
+            <Payload PayloadType="Canonical" Hash="3Dr5OvXGTcEVQJQ30xAYuvLDxGFngGpZkSS8kFrlEvY=" DownloadSize="71321276" SourceName="Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Not-Supported-On-LTSB-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="tGGhpYeS/I3pJhpYrpHXCaDTJu0DxiVXCCnI/5/UnRg=" DownloadSize="56595052" SourceName="Microsoft-Windows-Not-Supported-On-LTSB-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="NhtZR16MewuXwZtA/K6HJvME1Nq0fjSdXoaufWdJe4E=" DownloadSize="24302" SourceName="Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Microsoft.Windows.Notepad.System~~1.0" CapabilityId="Microsoft.Windows.Notepad.System~~~en-US~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="/T9aexurK0/k32dsDbuI8KtUIE94/z5QNdWBfu8EBic=" DownloadSize="23867" SourceName="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="9Pol5tAk28XXG2RacUszgBS8m0sSSt/b19qGJl1iqpA=" DownloadSize="210935" SourceName="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="Microsoft.Windows.Notepad.System~~1.0" CapabilityId="Microsoft.Windows.Notepad.System~~~en-US~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="9MlfoZOXNWsXYpWNw+6pm4idEnwnDStvYQK+3dCa2Hc=" DownloadSize="18440" SourceName="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="PCAwwoSJxo4mQP2wYh0bEv78Okz20n6dvkFP3DNy/ns=" DownloadSize="196890" SourceName="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Microsoft.Windows.PowerShell.ISE~~1.0" CapabilityId="Microsoft.Windows.PowerShell.ISE~~~en-US~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="judObL/kUE2fKpOvpW1wsa5vphzAIq9OQRSHlXX4H20=" DownloadSize="305087" SourceName="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="vgESw0+K2/n9vQy37VYZ+Ruv7hO2IdcNthQILI4GXsM=" DownloadSize="1117140" SourceName="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="Microsoft.Windows.PowerShell.ISE~~1.0" CapabilityId="Microsoft.Windows.PowerShell.ISE~~~en-US~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="nsTIxAl7AlY8piPD8LUtELopXIYk/2B42L/XfgilqCE=" DownloadSize="38422" SourceName="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="uNiYDZaIr+VIZTzLFZuEGP8/gaNOo68pMrcAJxsyoY8=" DownloadSize="114691" SourceName="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.Client.ProjFS~" CapabilityId="Windows.Client.ProjFS~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="ctHHYT/UQnSP7gSkFcS6TGfoSg8anX7Vrk2E/rPSqqg=" DownloadSize="21926" SourceName="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="NlDV+C6RRhP1Dzps6ULdWBNM4BjAUZKtAm0jA1V/ris=" DownloadSize="173810" SourceName="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-RegulatedPackages-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="Ld79NdRzl6JCSMprvPOxlhfJ8u/txKJxwqbgvneOkJs=" DownloadSize="24731254" SourceName="Microsoft-Windows-RegulatedPackages-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-RegulatedPackages-WOW64-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="hUtGzozRcjSJCmXPlNeIahv+RfMpQYHpqBE0sSN3gIE=" DownloadSize="20029489" SourceName="Microsoft-Windows-RegulatedPackages-WOW64-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Required-ShellExperiences-Desktop-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="6VL9IGj9fo72/XqZxbBX2gtKe6NmN/hecUI0oQawoMA=" DownloadSize="8187174" SourceName="Microsoft-Windows-Required-ShellExperiences-Desktop-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Required-ShellExperiences-Desktop-WOW64-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="TpIhxHnovleRE09cVE42pBMEEg9yXvY/FqbNNpfQdPU=" DownloadSize="1653068" SourceName="Microsoft-Windows-Required-ShellExperiences-Desktop-WOW64-Package.ESD" SourcePath="UUP\Desktop\editionPackages\neutral"/>
+        </Package>
+        <Package Id="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.SimpleTCP.Content~" CapabilityId="Windows.SimpleTCP.Content~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="3R5OZFzzwgorqUSwmBX3FLJmkhruSfDCZPZUjnqNiHA=" DownloadSize="24293" SourceName="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="PDCwkRajejM2YDYc05CRMkbJdTIHdBdQa13A6t2Ha+o=" DownloadSize="35509" SourceName="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-SmbDirect-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="cOVfUVmZpymwGUP7gb+5wIZHC7L+DFMAXCpFJEo/g2g=" DownloadSize="103536" SourceName="Microsoft-Windows-SmbDirect-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="App.StepsRecorder~~1.0" CapabilityId="App.StepsRecorder~~~en-US~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="LdVKww8LAZ+b8eMmiYcRHu9NUUzeZ4QiZv3ROkhv3FQ=" DownloadSize="22781" SourceName="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="vmbsllUYDC4ccROfGyI/LZHnGxEdmHgvp4/aDeJQi3U=" DownloadSize="207693" SourceName="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="App.StepsRecorder~~1.0" CapabilityId="App.StepsRecorder~~~en-US~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="nF/30qFAPNlJ7QycWjrFLu783TngVAzdZTnS56f8INM=" DownloadSize="18686" SourceName="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="qatx5yDgNpTVlF22apDjhTa5hsZC8j/Rye6wgvEJE2w=" DownloadSize="131254" SourceName="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-TabletPCMath-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="nq6YQtqLCjaRRgjoEGQEVcFrADOzG7tcwqzezCW2BW4=" DownloadSize="5881935" SourceName="Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.Telnet.Client~" CapabilityId="Windows.Telnet.Client~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="MRFJmPaF+up4ngq8Y6lEM4RlkfT1IlkLCYGmVS8mlCc=" DownloadSize="26992" SourceName="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="1KKzRHdMzay/UAQJJ5z6q+iNArqzU1K7AUx1u4Z46Iw=" DownloadSize="90721" SourceName="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.TerminalServices.AppServerClient~" CapabilityId="Windows.TerminalServices.AppServerClient~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="5osgeeEUAp6i/ZZ/Ym7/gd4FWoM8XoN+twgFTjI/Wkg=" DownloadSize="94986" SourceName="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="yyCR71qmFJtjfqQV/CRdjEXpR/wjdRrv8A/NdzX0T8w=" DownloadSize="952264" SourceName="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="Windows.TerminalServices.AppServerClient~" CapabilityId="Windows.TerminalServices.AppServerClient~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="eGAiaGYrl7fLsGIOPjfURBEne8C7MmnNWzrOYfvFYgM=" DownloadSize="47361" SourceName="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="rM65U6PnaxbxrnblHbDkUeWYDF+JT4y5RR+lezmvwy8=" DownloadSize="241087" SourceName="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.TFTP.Client~" CapabilityId="Windows.TFTP.Client~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="+JGNWmxLvZYJi4vAvIrRcoMkhVeFJorFv7/r6PEMowA=" DownloadSize="24946" SourceName="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="bS7I542A3xHr95ugO5PHiizYpnBt28m1BB469vqvHYA=" DownloadSize="37295" SourceName="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="VBSCRIPT~" CapabilityId="VBSCRIPT~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="F8dyUuDGYpC3/BAtlF7CkZmic5PGryNTUOj4ETueukk=" DownloadSize="26662" SourceName="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="hqArO6sciiPUKbdIxVIuwihLJ1eaOh4QCKyqonHJrCQ=" DownloadSize="297810" SourceName="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="VBSCRIPT~" CapabilityId="VBSCRIPT~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="lXKOod02j7ki31Q8kyyCpQRbJpIvpf2Q41bhklivhV4=" DownloadSize="21890" SourceName="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="qsgXPIv2p4eHs5ySmuH7yOXj0SiXn89TUrl/+5ojll0=" DownloadSize="258215" SourceName="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="OBXDVw0GBl9mCBCoDlEGYvxkeltbkGxP+noP6Eqwpkk=" DownloadSize="24608" SourceName="Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="xR0j/5K9b9RPkRCQN/cCg/XH4whIZHpBOJanzIMJ2jM=" DownloadSize="1042655" SourceName="Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="8MXRQLqP9doi4RjLq5+VJbSbjwZIcelQg8yoV+Wvwwk=" DownloadSize="2076398" SourceName="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="Uimf6/xu69KaYqq9kEeoc1jg5nUFzQfb/2wET77omh0=" DownloadSize="1211535" SourceName="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="PmRyuinh+s6g6u8mWRwoguzmXKkz6PsCPorM607CV2A=" DownloadSize="1809361" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="TTng0AQtE7zmJeqTi39HDlLO33zTYfaD+s1jzlMmzG4=" DownloadSize="2276799" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="wn9bIVluf4k/HOKimfustl+apHWTBdtk+WIbMWsiHeM=" DownloadSize="2286079" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="/UkDcT3DwOWsm9Bg0wzkmbUMv7IX4bbRgAhQDPKlgf4=" DownloadSize="1856698" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="aFy8omrJUF2x65Q84qMcBOpbPbOyti4GtdkVhetXvy8=" DownloadSize="2002506" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="vADMBDHK2JubwxhAqptb+TTVVdhZJ6uF7UhbSeYvZJg=" DownloadSize="2346912" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="KLWceqYkpsoH2Gl01dA5qQ0rXIzIzqD34Ca7JKmLdNM=" DownloadSize="3199743" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="Ga4ER1pA147rrIsl7nT5J41l/83Y3wT25SvEHxs94tE=" DownloadSize="2559178" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="G1JPEcBF7wpZ6e9Tvx0bW4Lk8VM6H2MhTiLfD3iSRyA=" DownloadSize="2693864" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="dUb3ljeV/5SgUpgOrOJ/ELDKKWCOBfABgqxCZrYwk1w=" DownloadSize="2910096" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="3UlHX4OpnRGkZM6JP/zYZtIe3h1YyBOTKdikdvayOWo=" DownloadSize="3462938" SourceName="Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="z9d0XgE1gPcD8nL5tpRN80hH08SpN0tRZyeZ2XiECos=" DownloadSize="621298" SourceName="Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="fQpr+H25685plLuEychu7wtCSYDwKVBWlfF8UOok0ys=" DownloadSize="1030738" SourceName="Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="FSgIabaRjfr8m2pBv4CEgt5MXfZYaLH5pdGTF3JpAl4=" DownloadSize="1043468" SourceName="Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="pWr4amWM3KM+n86BUwGx5kQfHFuM3ysdu/WgLHhka74=" DownloadSize="1704337" SourceName="Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="B51zV5xls3fwfvCceT6iz0eezYegWyyMLuKs6QPv7gI=" DownloadSize="1148815" SourceName="Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package" Reason="OnDemand" FeatureId="Microsoft.Windows.Wifi.Client.Realtek.Rtl8187se~~1.0" CapabilityId="Microsoft.Windows.Wifi.Client.Realtek.Rtl8187se~~~~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="4MuI4B9mYcbfcWsA6o3aTignCtJabgPm4XvoAXFniTQ=" DownloadSize="235567" SourceName="Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="l6g+hbazB8GgaEUrfZo8SwUf4y7C1tNuAcZd3fE6B70=" DownloadSize="520985" SourceName="Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package" Reason="OnDemand" FeatureId="Microsoft.Windows.Wifi.Client.Realtek.Rtl819xp~~1.0" CapabilityId="Microsoft.Windows.Wifi.Client.Realtek.Rtl819xp~~~~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="QGLQ8lQLMZAmhr4SLBrjOKk47oveTP9KYG34M8penes=" DownloadSize="293428" SourceName="Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package" Reason="OnDemand" FeatureId="Microsoft.Windows.Wifi.Client.Realtek.Rtl85n64~~1.0" CapabilityId="Microsoft.Windows.Wifi.Client.Realtek.Rtl85n64~~~~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="o/hxcrL3ic6UMjw/NfoJy4+0N/Bwtw3+3UaDHDnTWsI=" DownloadSize="588654" SourceName="Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="yBXzomQkMiC1FWw1zD1SZu5TjGiptMNh7QwEHEO0QxI=" DownloadSize="2635715" SourceName="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="VSaXgmZK+jHApigz7sA7L4WLvB+6YWgxcFIKhUvKrJg=" DownloadSize="2083445" SourceName="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="G1p2O4Fk/7PeaF/2/s+dVYK4IMcaWYVSrb4d5JugX2Y=" DownloadSize="1210640" SourceName="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~en-us~" Reason="Satellite" FeatureId="Windows.WinOcr~" CapabilityId="Windows.WinOcr~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="2gwJhgdvOpWjX9vGWWiZvi73c1apgV9aBADGoikUD0Q=" DownloadSize="25274" SourceName="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="vsyWM+aC0pXrlwFKLizIWjIqQ7li5VxS9CTmKzGAqGw=" DownloadSize="121856" SourceName="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~wow64~en-us~" Reason="Satellite" FeatureId="Windows.WinOcr~" CapabilityId="Windows.WinOcr~~~en-US~">
+            <Payload PayloadType="Canonical" Hash="0XjAUooVXEc+o18sw64DToVUABws8PZAeWex7BsQrtA=" DownloadSize="21194" SourceName="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" SourcePath="FeaturesOnDemand\en-us\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="heySMARTo2drMhkBPWSdempsdDxEacuzTgPDDWm3+s8=" DownloadSize="108025" SourceName="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="aW+us1DHhOnN81HC42pxcBpO3n8elSNX0hQ3N1M1cVU=" DownloadSize="319201" SourceName="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~wow64~~" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="gnz0S3zMGDS5OO0fLDI4wmB0ldwu6D3gXYn3luLOamA=" DownloadSize="313895" SourceName="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~wow64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft-Windows-Xps-Xps-Viewer-Opt-Package" Reason="OnDemand" FeatureId="XPS.Viewer~~1.0" CapabilityId="XPS.Viewer~~~~0.0.1.0">
+            <Payload PayloadType="Canonical" Hash="QoaTpYSsFEtmGx6ZV4WXjIERtqy+qAKW0/GbiaA8USQ=" DownloadSize="3419163" SourceName="Microsoft-Windows-Xps-Xps-Viewer-Opt-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Microsoft.BingNews_2024.401.617.0_neutral_~_8wekyb3d8bbwe" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="ME6N4qqPeg+UD8yaJbwGoXsHVRQVym/vrgqFNIcKF/s=" DownloadSize="11826" SourceName="Microsoft.BingNews_8wekyb3d8bbwe.msixbundle" SourcePath="UUP\Desktop\Apps\IPA\BingNews"/>
+        </Package>
+        <Package Id="Microsoft.BingNews_4.56.242.0_neutral_split.scale-100_8wekyb3d8bbwe" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="sSPCuHKQlcKqV9Scg1ljO472zMCtCZZy1PrjIbagWuk=" DownloadSize="43631" SourceName="News_4.56.242.0_scale-100.msix" SourcePath="UUP\Desktop\Apps\IPA\BingNews"/>
+        </Package>
+        <Package Id="Microsoft.BingNews_4.56.242.0_neutral_split.scale-125_8wekyb3d8bbwe" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="Boyl7z2cyF8M/E8TPM4TWEyRipobAhJVhFLz/0RLh7g=" DownloadSize="53249" SourceName="News_4.56.242.0_scale-125.msix" SourcePath="UUP\Desktop\Apps\IPA\BingNews"/>
+        </Package>
+        <Package Id="Microsoft.BingNews_4.56.242.0_neutral_split.scale-150_8wekyb3d8bbwe" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="N9NKoh89fKwb1rx+jX5W+qzLhdWyiJMpTSZUEq++SrE=" DownloadSize="59983" SourceName="News_4.56.242.0_scale-150.msix" SourcePath="UUP\Desktop\Apps\IPA\BingNews"/>
+        </Package>
+        <Package Id="Microsoft.BingNews_4.56.242.0_neutral_split.scale-400_8wekyb3d8bbwe" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="eSya/B6dWWNlol3qQiPgJwGHKVJ6cMUs9UhyIwSYJnU=" DownloadSize="186096" SourceName="News_4.56.242.0_scale-400.msix" SourcePath="UUP\Desktop\Apps\IPA\BingNews"/>
+        </Package>
+        <Package Id="Microsoft.BingNews_4.56.242.0_x64__8wekyb3d8bbwe" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="8WFX95kG49GmuT+1BTbdNfd6DESMuJaaa1uDPvnkMX4=" DownloadSize="11640737" SourceName="News_4.56.242.0_x64.msix" SourcePath="UUP\Desktop\Apps\IPA\BingNews"/>
+        </Package>
+        <Package Id="Microsoft.UI.Xaml.2.7_7.2208.15002.0_x64__8wekyb3d8bbwe" Reason="MSIXFramework" FeatureId="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="jOMNkqvsZSK+slROe3Fpg/XLpQdRtYDYmjYEi/TZAxY=" DownloadSize="5070706" SourceName="Microsoft.UI.Xaml.x64.2.7.appx" SourcePath="UUP\Desktop\Apps\IPA\Microsoft.UI.Xaml.2.7"/>
+        </Package>
+        <Package Id="Microsoft.UI.Xaml.2.8_8.2310.30001.0_x64__8wekyb3d8bbwe" Reason="MSIXFramework" FeatureId="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="JJ0q+0HMAJSUhBNyvW3S30b4c4bVNd342fMslyJtLkY=" DownloadSize="5121145" SourceName="Microsoft.UI.Xaml.x64.2.8.appx" SourcePath="UUP\Desktop\Apps\IPA\WinStore"/>
+        </Package>
+        <Package Id="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe" Reason="MSIXFramework" FeatureId="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="m/3mz8xTDvBzq0vJxIF1dfY74SUd11qqWMuJKZaXpWk=" DownloadSize="6638831" SourceName="Microsoft.VCLibs.x64.14.00.Desktop.appx" SourcePath="UUP\Desktop\Apps\IPA\Notepad"/>
+        </Package>
+        <Package Id="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe" Reason="MSIXFramework" FeatureId="Microsoft.VCLibs.140.00_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="AJ99sTTGBh/o8mDgdTdKKKu7xE5s8j3hB/k+yLjFmBY=" DownloadSize="859530" SourceName="Microsoft.VCLibs.x64.14.00.appx" SourcePath="UUP\Desktop\Apps\IPA\WinStore"/>
+        </Package>
+        <Package Id="Microsoft.WindowsAppRuntime.1.4_4000.1136.2333.0_x64__8wekyb3d8bbwe" Reason="MSIXFramework" FeatureId="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe">
+            <Payload PayloadType="Canonical" Hash="XmW0FwV2gcOxa2Vv7agtM1VNOWSVyAUFpOoOFEhIo4Q=" DownloadSize="22429940" SourceName="Microsoft.WindowsAppRuntime.x64.1.4.msix" SourcePath="UUP\Desktop\Apps\IPA\frameworks"/>
+        </Package>
+        <Package Id="OpenSSH-Client-Package" Reason="Media" FeatureId="core_en-us" FeatureFamilyType="Client">
+            <Payload PayloadType="Canonical" Hash="bSJZ6+VG/yTHpU/UC44UmItm3MdpaDJMmDlWjWF+klY=" DownloadSize="2014456" SourceName="OpenSSH-Client-Package~31bf3856ad364e35~amd64~~.cab" SourcePath="FeaturesOnDemand\neutral\cabs"/>
+        </Package>
+        <Package Id="Package_for_DotNetRollup_481" Reason="GDR" FeatureId="GDR_KB5087051">
+            <Payload PayloadType="Canonical" Hash="RRomjc9R64RDMb/4SHQNX9tAhU4qlYvWyEIQHWrI3/E=" DownloadSize="96218684" SourceName="Windows11.0-KB5087051-x64-NDP481.cab"/>
+        </Package>
+        <Package Id="Package_for_KB5054156" Reason="GDR" FeatureId="GDR_KB5054156">
+            <Payload PayloadType="PSFX" Hash="M8UQwhFWK46EEzQ7R1n3xlm/vRZUPmfvjyf+NEb38Hc=" DownloadSize="26156" SourceName="Windows11.0-KB5054156-x64.cab"/>
+        </Package>
+        <Package Id="Package_for_RollupFix~~amd64~~26100.8457.1.17" Reason="CumulativeUpdate" FeatureId="CumulativeUpdate_KB5089549" PackagePath="Package_for_RollupFix~~amd64~~26100.8457.1.17" ExpressPackagePath="metadata\Windows11.0-KB5089549-x64">
+            <Payload PayloadType="Express" Hash="Q3OPqsgqr7OXWtgegsPnOJQCNuvcENTWBcF66gi8zb8=" DownloadSize="113666182" SourceName="Windows11.0-KB5043080-x64.wim" AltSourceName="Windows11.0-KB5043080-x64.msu" AltSourceHash="gZYyYQoQGvEccpB/sT/wW1+0IiwOJj7poDvMHR1fJqQ=" ExpressHash="w0b6IVdmFyHFMIpANbFyv6V2wnjcBvi3gJW1BPr4b8s=" ExpressSourceName="Windows11.0-KB5043080-x64.psf" ExpressTargetName="Windows11.0-KB5043080-x64_psf.rng" CiXPath="Windows11.0-KB5043080-x64\express.psf.cix.xml" ExpressPackagePath="metadata\Windows11.0-KB5043080-x64" ExpressPackageTargetPath="Windows11.0-KB5043080-x64"/>
+            <Payload PayloadType="Express" Hash="VWVC6MhQt0DS6Ip/gGuM6RUJan/wRNlEWaKOIqus8lU=" DownloadSize="109337931" SourceName="Windows11.0-KB5089549-x64.mumx.esd" AltSourceName="Windows11.0-KB5089549-x64.msu" AltSourceHash="Z4I3PiJz7jTppyWYjuoDkopzhIjVpbk8l40YpMTjfOc=" ExpressHash="tCTJntUo0sgtRhIC9Zu2CBDj8pmEw9jvyG14an1bdfg=" ExpressSourceName="Windows11.0-KB5089549-x64.psf" ExpressTargetName="Windows11.0-KB5089549-x64_psf.rng" CiXPath="Windows11.0-KB5089549-x64\express.psf.cix.xml" ExpressPackagePath="metadata\Windows11.0-KB5089549-x64"/>
+        </Package>
+        <Package Id="Package_for_SafeOSDU" Reason="SafeOSDU" FeatureId="SafeOSUpdate_KB5089593">
+            <Payload PayloadType="PSFX" Hash="j8Gj2+uqOwHEPRdYeWDyr92GJqhFX0HngXfhTpkzhRA=" DownloadSize="137521656" SourceName="Windows11.0-KB5089593-x64.cab"/>
+        </Package>
+        <Package Id="Package_for_ServicingStack_8456" Reason="ServicingStackUpdate" FeatureId="ServicingStackUpdate_KB5092762">
+            <Payload PayloadType="Canonical" Hash="PSzBYFpEHR+dHmp4iu8KuokCqxJxCCcoqixPHHuU8O8=" DownloadSize="20215942" SourceName="SSU-26100.8456-x64.cab" AltSourceName="Windows11.0-KB5089549-x64.msu" AltSourceHash="Z4I3PiJz7jTppyWYjuoDkopzhIjVpbk8l40YpMTjfOc="/>
+        </Package>
+    </Downloads>
+    <Media Id="core_en-us" Path="MetadataESD" Name="core_en-us.esd" FeatureFamilyType="Client" InstalledSize="7920487685">
+        <Package Id="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Edge-WebView-FOD-Package" PackagePath="Microsoft-Edge-WebView-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package" PackagePath="Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-OneCore-DirectX-Database-FOD-Package" PackagePath="Microsoft-OneCore-DirectX-Database-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Win4-Feature" PackagePath="Microsoft-Win4-Feature.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Win4-WOW64-Feature" PackagePath="Microsoft-Win4-WOW64-Feature.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Client-Desktop-Required-Package" PackagePath="Microsoft-Windows-Client-Desktop-Required-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Client-Desktop-Required-WOW64-Package" PackagePath="Microsoft-Windows-Client-Desktop-Required-WOW64-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Client-Features-Package" PackagePath="Microsoft-Windows-Client-Features-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Client-Features-WOW64-Package" PackagePath="Microsoft-Windows-Client-Features-WOW64-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-us~" PackagePath="Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-us~.esd" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-EditionPack-Core-Package" PackagePath="Microsoft-Windows-EditionPack-Core-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-EditionPack-Core-WOW64-Package" PackagePath="Microsoft-Windows-EditionPack-Core-WOW64-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-EditionSpecific-Core-Package" PackagePath="Microsoft-Windows-EditionSpecific-Core-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package" PackagePath="Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package" PackagePath="Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package" PackagePath="Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package" PackagePath="Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-FoDMetadata-Package" PackagePath="Microsoft-Windows-FoDMetadata-Package.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Foundation-Package" PackagePath="Microsoft-Windows-Foundation-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Hello-Face-Package" PackagePath="Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Kernel-LA57-FoD-Package" PackagePath="Microsoft-Windows-Kernel-LA57-FoD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-LanguageFeatures-Basic-en-us-Package" PackagePath="Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package" PackagePath="Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-LanguageFeatures-OCR-en-us-Package" PackagePath="Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-LanguageFeatures-Speech-en-us-Package" PackagePath="Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package" PackagePath="Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Not-Supported-On-LTSB-Package" PackagePath="Microsoft-Windows-Not-Supported-On-LTSB-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package" PackagePath="Microsoft-Windows-Not-Supported-On-LTSB-WOW64-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-RegulatedPackages-Package" PackagePath="Microsoft-Windows-RegulatedPackages-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-RegulatedPackages-WOW64-Package" PackagePath="Microsoft-Windows-RegulatedPackages-WOW64-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Required-ShellExperiences-Desktop-Package" PackagePath="Microsoft-Windows-Required-ShellExperiences-Desktop-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Required-ShellExperiences-Desktop-WOW64-Package" PackagePath="Microsoft-Windows-Required-ShellExperiences-Desktop-WOW64-Package.ESD" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-SmbDirect-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-SmbDirect-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-TabletPCMath-Package" PackagePath="Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package" PackagePath="Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package" PackagePath="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~" PackagePath="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+        <Package Id="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~wow64~~" PackagePath="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~wow64~~.cab" PackageType="Cab"/>
+        <Package Id="OpenSSH-Client-Package" PackagePath="OpenSSH-Client-Package~31bf3856ad364e35~amd64~~.cab" PackageType="Cab"/>
+    </Media>
+    <Plan>
+        <InstallFeature Id="App.StepsRecorder~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Browser.InternetExplorer~~11.0" Group="Microsoft"/>
+        <InstallFeature Id="CumulativeUpdate_KB5043080" Group="Microsoft"/>
+        <InstallFeature Id="CumulativeUpdate_KB5089549" Group="Microsoft"/>
+        <InstallFeature Id="Edge.Webview2.Platform~" Group="Microsoft"/>
+        <InstallFeature Id="GDR_KB5054156" Group="Microsoft"/>
+        <InstallFeature Id="GDR_KB5087051" Group="Microsoft"/>
+        <InstallFeature Id="Hello.Face.20134~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Language.Basic~en-us~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Language.Handwriting~en-us~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Language.OCR~en-us~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Language.Speech~en-us~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Language.TextToSpeech~en-us~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Language.UI.Client~en-us" Group="Microsoft"/>
+        <InstallFeature Id="MathRecognizer~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Media.WindowsMediaPlayer~~12.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Wallpapers.Extended~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Ethernet.Client.Intel.E1i68x64~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Ethernet.Client.Intel.E2f68~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Ethernet.Client.Realtek.Rtcx21x64~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Notepad.System~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.PowerShell.ISE~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63al~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwbw02~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwew00~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwew01~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwlv64~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwns64~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwsw00~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwtw02~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwtw04~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwtw06~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwtw08~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Intel.Netwtw10~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Qualcomm.Athw8x~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Qualcomm.Athwnx~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Qualcomm.Qcamain10x64~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Realtek.Rtl8187se~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Realtek.Rtl8192se~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Realtek.Rtl819xp~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Realtek.Rtl85n64~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane01~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane13~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="NetFX3~" Group="Microsoft"/>
+        <InstallFeature Id="OneCoreUAP.OneSync~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="OpenSSH.Client~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="SafeOSUpdate_KB5089593" Group="Microsoft"/>
+        <InstallFeature Id="ServicingStackUpdate_KB5092762" Group="Microsoft"/>
+        <InstallFeature Id="VBSCRIPT~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.Client.ProjFS~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.DirectoryServices.ADAM.Client.Content~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.SimpleTCP.Content~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.Telnet.Client~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.TerminalServices.AppServerClient~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.TFTP.Client~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.WinOcr~" Group="Microsoft"/>
+        <InstallFeature Id="Windows.WorkFolders.Client~" Group="Microsoft"/>
+        <InstallFeature Id="XPS.Viewer~~1.0" Group="Microsoft"/>
+        <InstallFeature Id="Microsoft.BingNews_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.NET.Native.Framework.2.2_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.Services.Store.Engagement_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.WindowsAppRuntime.1.3_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+        <InstallFeature Id="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Group="PreinstalledApps"/>
+    </Plan>
+    <Actions>
+        <InstallPackage Keyform="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="1998820" StagedSize="0" FilePath="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~" CapabilityId="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="3982158" StagedSize="0" FilePath="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.DirectoryServices.ADAM.Client.Content~" CapabilityId="Windows.DirectoryServices.ADAM.Client.Content~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~~wow64~en-US~10.0.26100.1" InstalledSize="720652" StagedSize="0" FilePath="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="Windows.DirectoryServices.ADAM.Client.Content~" CapabilityId="Windows.DirectoryServices.ADAM.Client.Content~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="129944" StagedSize="0" FilePath="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.WorkFolders.Client~" CapabilityId="Windows.WorkFolders.Client~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~~wow64~en-US~10.0.26100.1" InstalledSize="23875" StagedSize="0" FilePath="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="Windows.WorkFolders.Client~" CapabilityId="Windows.WorkFolders.Client~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-InternetExplorer-Optional-Package~~amd64~en-US~11.0.26100.1" InstalledSize="59149" StagedSize="0" FilePath="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Browser.InternetExplorer~~11.0" CapabilityId="Browser.InternetExplorer~~~en-US~0.0.11.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-MediaPlayer-Package~~amd64~en-US~10.0.26100.1" InstalledSize="861376" StagedSize="0" FilePath="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Media.WindowsMediaPlayer~~12.0" CapabilityId="Media.WindowsMediaPlayer~~~en-US~0.0.12.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-MediaPlayer-Package~~wow64~en-US~10.0.26100.1" InstalledSize="160914" StagedSize="0" FilePath="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="Media.WindowsMediaPlayer~~12.0" CapabilityId="Media.WindowsMediaPlayer~~~en-US~0.0.12.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-NetFx3-OnDemand-Package~~amd64~~10.0.26100.1" InstalledSize="243853085" StagedSize="0" FilePath="Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab" Reason="OnDemand" FeatureId="NetFX3~" CapabilityId="NetFX3~~~~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-NetFx3-OnDemand-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-Notepad-System-FoD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="26971" StagedSize="0" FilePath="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Microsoft.Windows.Notepad.System~~1.0" CapabilityId="Microsoft.Windows.Notepad.System~~~en-US~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-Notepad-System-FoD-Package~~wow64~en-US~10.0.26100.1" InstalledSize="12025" StagedSize="0" FilePath="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="Microsoft.Windows.Notepad.System~~1.0" CapabilityId="Microsoft.Windows.Notepad.System~~~en-US~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-PowerShell-ISE-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="867853" StagedSize="0" FilePath="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Microsoft.Windows.PowerShell.ISE~~1.0" CapabilityId="Microsoft.Windows.PowerShell.ISE~~~en-US~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-PowerShell-ISE-FOD-Package~~wow64~en-US~10.0.26100.1" InstalledSize="71314" StagedSize="0" FilePath="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="Microsoft.Windows.PowerShell.ISE~~1.0" CapabilityId="Microsoft.Windows.PowerShell.ISE~~~en-US~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="23668" StagedSize="0" FilePath="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.Client.ProjFS~" CapabilityId="Windows.Client.ProjFS~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-SimpleTCP-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="32422" StagedSize="0" FilePath="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.SimpleTCP.Content~" CapabilityId="Windows.SimpleTCP.Content~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-StepsRecorder-Package~~amd64~en-US~10.0.26100.1" InstalledSize="25007" StagedSize="0" FilePath="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="App.StepsRecorder~~1.0" CapabilityId="App.StepsRecorder~~~en-US~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-StepsRecorder-Package~~wow64~en-US~10.0.26100.1" InstalledSize="12065" StagedSize="0" FilePath="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="App.StepsRecorder~~1.0" CapabilityId="App.StepsRecorder~~~en-US~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-Telnet-Client-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="39307" StagedSize="0" FilePath="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.Telnet.Client~" CapabilityId="Windows.Telnet.Client~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="374367" StagedSize="0" FilePath="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.TerminalServices.AppServerClient~" CapabilityId="Windows.TerminalServices.AppServerClient~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~~wow64~en-US~10.0.26100.1" InstalledSize="140233" StagedSize="0" FilePath="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="Windows.TerminalServices.AppServerClient~" CapabilityId="Windows.TerminalServices.AppServerClient~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-TFTP-Client-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="29885" StagedSize="0" FilePath="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.TFTP.Client~" CapabilityId="Windows.TFTP.Client~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-VBSCRIPT-FoD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="34969" StagedSize="0" FilePath="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="VBSCRIPT~" CapabilityId="VBSCRIPT~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-VBSCRIPT-FoD-Package~~wow64~en-US~10.0.26100.1" InstalledSize="23062" StagedSize="0" FilePath="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="VBSCRIPT~" CapabilityId="VBSCRIPT~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package~~amd64~~10.0.26100.1" InstalledSize="478025" StagedSize="0" FilePath="Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package~31bf3856ad364e35~amd64~~.cab" Reason="OnDemand" FeatureId="Microsoft.Windows.Wifi.Client.Realtek.Rtl8187se~~1.0" CapabilityId="Microsoft.Windows.Wifi.Client.Realtek.Rtl8187se~~~~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-Wifi-Client-Realtek-Rtl8187se-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package~~amd64~~10.0.26100.1" InstalledSize="665466" StagedSize="0" FilePath="Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package~31bf3856ad364e35~amd64~~.cab" Reason="OnDemand" FeatureId="Microsoft.Windows.Wifi.Client.Realtek.Rtl819xp~~1.0" CapabilityId="Microsoft.Windows.Wifi.Client.Realtek.Rtl819xp~~~~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-Wifi-Client-Realtek-Rtl819xp-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package~~amd64~~10.0.26100.1" InstalledSize="2082441" StagedSize="0" FilePath="Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package~31bf3856ad364e35~amd64~~.cab" Reason="OnDemand" FeatureId="Microsoft.Windows.Wifi.Client.Realtek.Rtl85n64~~1.0" CapabilityId="Microsoft.Windows.Wifi.Client.Realtek.Rtl85n64~~~~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-Wifi-Client-Realtek-Rtl85n64-FOD-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-WinOcr-FOD-Package~~amd64~en-US~10.0.26100.1" InstalledSize="34513" StagedSize="0" FilePath="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" Reason="Satellite" FeatureId="Windows.WinOcr~" CapabilityId="Windows.WinOcr~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-WinOcr-FOD-Package~~wow64~en-US~10.0.26100.1" InstalledSize="23788" StagedSize="0" FilePath="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" Reason="Satellite" FeatureId="Windows.WinOcr~" CapabilityId="Windows.WinOcr~~~en-US~" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~wow64~en-us~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft-Windows-Xps-Xps-Viewer-Opt-Package~~amd64~~10.0.26100.1" InstalledSize="16061902" StagedSize="0" FilePath="Microsoft-Windows-Xps-Xps-Viewer-Opt-Package~31bf3856ad364e35~amd64~~.cab" Reason="OnDemand" FeatureId="XPS.Viewer~~1.0" CapabilityId="XPS.Viewer~~~~0.0.1.0" Partition="MainOS" BinaryPartition="false">
+            <Token value="PROVISIONAL"/>
+            <InstallPayload FilePath="Microsoft-Windows-Xps-Xps-Viewer-Opt-Package~31bf3856ad364e35~amd64~~.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.BingNews_2024.401.617.0_neutral_~~amd64~~2024.401.617.0" InstalledSize="0" StagedSize="0" FilePath="Microsoft.BingNews_8wekyb3d8bbwe.msixbundle" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Microsoft.BingNews_8wekyb3d8bbwe.msixbundle" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.BingNews_4.56.242.0_neutral_split.scale-100_8wekyb3d8bbwe~~amd64~~4.56.242.0" InstalledSize="0" StagedSize="0" FilePath="News_4.56.242.0_scale-100.msix" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="News_4.56.242.0_scale-100.msix" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.BingNews_4.56.242.0_neutral_split.scale-125_8wekyb3d8bbwe~~amd64~~4.56.242.0" InstalledSize="0" StagedSize="0" FilePath="News_4.56.242.0_scale-125.msix" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="News_4.56.242.0_scale-125.msix" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.BingNews_4.56.242.0_neutral_split.scale-150_8wekyb3d8bbwe~~amd64~~4.56.242.0" InstalledSize="0" StagedSize="0" FilePath="News_4.56.242.0_scale-150.msix" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="News_4.56.242.0_scale-150.msix" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.BingNews_4.56.242.0_neutral_split.scale-400_8wekyb3d8bbwe~~amd64~~4.56.242.0" InstalledSize="0" StagedSize="0" FilePath="News_4.56.242.0_scale-400.msix" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="News_4.56.242.0_scale-400.msix" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.BingNews_4.56.242.0_x64__8wekyb3d8bbwe~~amd64~~4.56.242.0" InstalledSize="0" StagedSize="0" FilePath="News_4.56.242.0_x64.msix" Reason="MSIXBundle" FeatureId="Microsoft.BingNews_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="News_4.56.242.0_x64.msix" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.UI.Xaml.2.7_7.2208.15002.0_x64__8wekyb3d8bbwe~~amd64~~7.2208.15002.0" InstalledSize="0" StagedSize="0" FilePath="Microsoft.UI.Xaml.x64.2.7.appx" Reason="MSIXFramework" FeatureId="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Microsoft.UI.Xaml.x64.2.7.appx" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.UI.Xaml.2.8_8.2310.30001.0_x64__8wekyb3d8bbwe~~amd64~~8.2310.30001.0" InstalledSize="0" StagedSize="0" FilePath="Microsoft.UI.Xaml.x64.2.8.appx" Reason="MSIXFramework" FeatureId="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Microsoft.UI.Xaml.x64.2.8.appx" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe~~amd64~~14.0.30704.0" InstalledSize="0" StagedSize="0" FilePath="Microsoft.VCLibs.x64.14.00.Desktop.appx" Reason="MSIXFramework" FeatureId="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Microsoft.VCLibs.x64.14.00.Desktop.appx" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe~~amd64~~14.0.30704.0" InstalledSize="0" StagedSize="0" FilePath="Microsoft.VCLibs.x64.14.00.appx" Reason="MSIXFramework" FeatureId="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Microsoft.VCLibs.x64.14.00.appx" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Microsoft.WindowsAppRuntime.1.4_4000.1136.2333.0_x64__8wekyb3d8bbwe~~amd64~~4000.1136.2333.0" InstalledSize="0" StagedSize="0" FilePath="Microsoft.WindowsAppRuntime.x64.1.4.msix" Reason="MSIXFramework" FeatureId="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Microsoft.WindowsAppRuntime.x64.1.4.msix" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Package_for_DotNetRollup_481~~amd64~~10.0.9335.3" InstalledSize="420021960" StagedSize="0" FilePath="Windows11.0-KB5087051-x64-NDP481.cab" Reason="GDR" FeatureId="GDR_KB5087051" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Windows11.0-KB5087051-x64-NDP481.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Package_for_KB5054156~~amd64~~26100.6717.1.4" InstalledSize="39849" StagedSize="0" FilePath="Windows11.0-KB5054156-x64.cab" Reason="GDR" FeatureId="GDR_KB5054156" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Windows11.0-KB5054156-x64.cab" PayloadType="PSFX"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Package_for_RollupFix~~amd64~~26100.1742.1.10" InstalledSize="9271877801" StagedSize="0" PayloadType="Express" FilePath="Package_for_RollupFix~~amd64~~26100.1742.1.10" Action="StagePartial" ExpressPackagePath="metadata\Windows11.0-KB5043080-x64" Reason="CumulativeUpdate" FeatureId="CumulativeUpdate_KB5043080" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Windows11.0-KB5043080-x64.wim" ExpressPackagePath="metadata\Windows11.0-KB5043080-x64" PayloadType="Express"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Package_for_RollupFix~~amd64~~26100.8457.1.17" InstalledSize="9999999999" StagedSize="0" PayloadType="Express" FilePath="Package_for_RollupFix~~amd64~~26100.8457.1.17" ExpressPackagePath="metadata\Windows11.0-KB5089549-x64" Reason="CumulativeUpdate" FeatureId="CumulativeUpdate_KB5089549" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Windows11.0-KB5043080-x64.wim" ExpressPackagePath="metadata\Windows11.0-KB5043080-x64" PayloadType="Express"/>
+            <InstallPayload FilePath="Windows11.0-KB5089549-x64.mumx.esd" ExpressPackagePath="metadata\Windows11.0-KB5089549-x64" PayloadType="Express"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Package_for_SafeOSDU~~amd64~~26100.8455.1.7" InstalledSize="644721313" StagedSize="0" FilePath="Windows11.0-KB5089593-x64.cab" Reason="SafeOSDU" FeatureId="SafeOSUpdate_KB5089593" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="Windows11.0-KB5089593-x64.cab" PayloadType="PSFX"/>
+        </InstallPackage>
+        <InstallPackage Keyform="Package_for_ServicingStack_8456~~amd64~~26100.8456.1.1" InstalledSize="72143196" StagedSize="0" FilePath="SSU-26100.8456-x64.cab" Reason="ServicingStackUpdate" FeatureId="ServicingStackUpdate_KB5092762" Partition="MainOS" BinaryPartition="false">
+            <InstallPayload FilePath="SSU-26100.8456-x64.cab" PayloadType="Canonical"/>
+        </InstallPackage>
+    </Actions>
+</ActionList>

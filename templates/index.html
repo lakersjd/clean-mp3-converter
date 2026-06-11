@@ -2,47 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Clean MP3 Converter</title>
+  <title>Video Converter</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-  <div class="box">
-    <h1>Clean MP3 Converter</h1>
-    <p>Upload a file or paste a direct media URL you own.</p>
+  <header class="hero">
+    <h1>Video Converter</h1>
+    <p>Convert videos to MP3 or MP4 and download them.</p>
+  </header>
 
-    {% if error %}
-      <div class="error">{{ error }}</div>
-    {% endif %}
+  <main class="wrap">
+    <section class="converter-card">
+      {% if error %}
+        <div class="error">{{ error }}</div>
+      {% endif %}
 
-    {% if preview %}
-      <div class="preview">
-        {% if preview.thumbnail_url %}
-          <img src="{{ preview.thumbnail_url }}" alt="YouTube thumbnail">
-        {% endif %}
-        <h3>{{ preview.title }}</h3>
-        <p>{{ preview.author_name }}</p>
-      </div>
-    {% endif %}
+      <form method="POST" action="/" enctype="multipart/form-data">
+        <label>Upload video/audio file</label>
+        <input type="file" name="file" accept="audio/*,video/*" required>
 
-    {% if download_file %}
-      <a class="download" href="{{ url_for('download', filename=download_file) }}">Download MP3</a>
-    {% endif %}
+        <div class="row">
+          <div class="format-tabs">
+            <label>
+              <input type="radio" name="output_type" value="mp3" checked>
+              <span>MP3</span>
+            </label>
 
-    <form method="POST" enctype="multipart/form-data">
-      <input type="file" name="file">
+            <label>
+              <input type="radio" name="output_type" value="mp4">
+              <span>MP4</span>
+            </label>
+          </div>
 
-      <p>or paste a direct media URL</p>
-      <input type="url" name="media_url" placeholder="https://example.com/audio.wav">
+          <button type="submit">Convert & Download</button>
+        </div>
 
-      <select name="quality">
-        <option value="128k">128 kbps</option>
-        <option value="192k" selected>192 kbps</option>
-        <option value="256k">256 kbps</option>
-        <option value="320k">320 kbps</option>
-      </select>
-
-      <button type="submit">Convert to MP3</button>
-    </form>
-  </div>
+        <select name="quality">
+          <option value="128k">MP3 128 kbps</option>
+          <option value="192k" selected>MP3 192 kbps</option>
+          <option value="256k">MP3 256 kbps</option>
+          <option value="320k">MP3 320 kbps</option>
+        </select>
+      </form>
+    </section>
+  </main>
 </body>
 </html>
