@@ -8,10 +8,20 @@
 <body>
   <div class="box">
     <h1>Clean MP3 Converter</h1>
-    <p>Upload an audio or video file and convert it to MP3.</p>
+    <p>Upload a file or paste a direct media URL you own.</p>
 
     {% if error %}
       <div class="error">{{ error }}</div>
+    {% endif %}
+
+    {% if preview %}
+      <div class="preview">
+        {% if preview.thumbnail_url %}
+          <img src="{{ preview.thumbnail_url }}" alt="YouTube thumbnail">
+        {% endif %}
+        <h3>{{ preview.title }}</h3>
+        <p>{{ preview.author_name }}</p>
+      </div>
     {% endif %}
 
     {% if download_file %}
@@ -19,7 +29,10 @@
     {% endif %}
 
     <form method="POST" enctype="multipart/form-data">
-      <input type="file" name="file" required>
+      <input type="file" name="file">
+
+      <p>or paste a direct media URL</p>
+      <input type="url" name="media_url" placeholder="https://example.com/audio.wav">
 
       <select name="quality">
         <option value="128k">128 kbps</option>
